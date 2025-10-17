@@ -1,0 +1,33 @@
+body {
+    background-color: #17181c;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* centra horizontalmente */
+}
+
+.contenedor {
+    max-width: 1800px;  /* limita ancho en pantallas grandes */
+    margin: 0 auto;     /* centrado horizontal */
+    padding: 0 20px;    /* espacio lateral en móviles */
+    text-align: center; /* centra horizontalmente h1/h2 y logo */
+}
+
+.logo {
+    display: block;
+    width: 50%;         /* ocupa la mitad del contenedor */
+    max-width: 1200px;  /* no demasiado grande */
+    min-width: 300px;   /* no demasiado pequeño en móviles */
+    height: auto;
+    margin: 20px auto;  /* espacio superior e inferior, centrado */
+}
+
+
+/* Textos */
+h1 {
+    font-family: sans-serif;
+    color: white;
+}
+
+h2 {
+    color: #818285;
+}

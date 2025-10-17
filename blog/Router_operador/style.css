@@ -1,0 +1,85 @@
+body {
+    background-color: #17181c;
+    margin: 0;
+    padding: 0;
+    /*text-align: center; /* centra horizontalmente */
+}
+
+.contenedor {
+    width: 90%;           /* ocupa el 90% del ancho disponible */
+    max-width: 1000px;  /* limita ancho en pantallas grandes */
+    margin: 0 auto;     /* centrado horizontal */
+    padding: 0 20px;    /* espacio lateral en móviles */
+    /*text-align: center; /* centra horizontalmente el contenido */
+}
+
+.articulo-img {
+    width: 100%;       /* ocupa todo el ancho disponible del contenedor */
+    max-width: 100%;   /* nunca se salga del contenedor */
+    height: auto;      /* mantiene la proporción original */
+    /*display: block;     elimina espacio extra que dejan las imágenes inline */
+    margin: 20px auto; /* centrado horizontal y margen vertical */
+}
+
+h1 {
+    color: rgb(255, 255, 255); /* texto blanco sobre fondo oscuro */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 42px;       /* tamaño principal del título */
+    font-weight: 600;      /* seminegrita para que destaque */
+    line-height: 1.2;      /* buena separación si ocupa varias líneas */
+    margin-top: 16px;      /* espacio con elemento anterior */
+    margin-bottom: 0;      /* ajusta el espacio inferior según diseño */
+    text-align: center;    /* centra el h1 horizontalmente en su contenedor */
+}
+
+
+h2 {
+    color: rgb(255, 255, 255); /* mismo color que h1 */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 32px;       /* más pequeño que h1 */
+    font-weight: 500;      /* menos pesado que h1 */
+    line-height: 1.3;      /* separación cómoda */
+    margin-top: 50px;      /* espacio superior reducido respecto a h1 */
+    margin-bottom: 8px;    /* margen inferior para separar del contenido */
+    /*text-align: center;     mantiene alineación centrada */
+    
+}
+
+/* H3: subtítulo secundario */
+h3 {
+    color: rgb(255, 255, 255); /* mismo color que h1 y h2 */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 24px;       /* más pequeño que h2 */
+    font-weight: 500;      /* ligeramente seminegrita */
+    line-height: 1.4;      /* separación adecuada para bloques de texto */
+    margin-top: 10px;      /* espacio superior */
+    margin-bottom: 6px;    /* espacio inferior */
+    /*text-align: center;     centrado en el contenedor */
+}
+
+
+
+p {
+    color: rgb(193, 195, 200); /* tono gris claro, buena legibilidad sobre fondo oscuro */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    line-height: 1.6; /* mejora la lectura en bloques de texto */
+    font-size: 1rem;  /* tamaño estándar y adaptable */
+    margin-bottom: 16px; /* espacio entre párrafos */
+    text-align: justify; /* opcional: alinea los bordes para aspecto más limpio */
+}
+
+ul {
+    color: rgb(193, 195, 200); /* mismo color que los párrafos */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; /* misma fuente */
+    font-size: 1rem;           /* mismo tamaño que los párrafos */
+    line-height: 1.6;          /* misma altura de línea para buena legibilidad */
+    margin-bottom: 16px;       /* espacio inferior entre listas y otros elementos */
+    text-align: justify;       /* opcional, mismo que los párrafos */
+    padding-left: 20px;        /* sangría para las viñetas */
+}
+
